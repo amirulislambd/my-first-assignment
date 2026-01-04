@@ -27,6 +27,7 @@ h3 {
   padding: 6px 12px;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 
 /* 2-- styles of navbar section */
@@ -130,6 +131,7 @@ h3 {
   border-radius: 10px;
   padding: 48px;
   margin-top: 24px;
+  margin-bottom: 80px;
 }
 .IMG {
   width: 408px;
@@ -144,4 +146,25 @@ h3 {
 /* alternate right image */
 .recent-news.right-img{
   flex-direction: row-reverse;
+}
+
+/* Donate section */
+.donate-section{
+  text-align: center;
+}
+.cards-TK{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.card-TK{
+  border:solid 2px whitesmoke;
+  padding: 40px;
+  border-radius: 10px;
+}
+.other-amount{
+  border: 2px solid whitesmoke;
+  padding: 20px ;  
+  margin: 32px 124px;
 }
