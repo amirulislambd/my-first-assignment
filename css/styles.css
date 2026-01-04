@@ -1,9 +1,9 @@
 /* 1-- full website */
-body{
+body {
   margin: 0;
   padding: 0;
 }
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -46,10 +46,17 @@ h3 {
 /* 3-- styles of banner section */
 .banner {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 49px;
   background-color: #c6e4d6;
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 80px;
+}
+.bannerIMG {
+  width: 474px;
+  height: 400px;
 }
 
 /*  4--styles of main section*/
@@ -94,44 +101,47 @@ h3 {
 }
 
 /* opinion-section */
-.opinion-section{
-    margin-bottom: 80px;
+.opinion-section {
+  margin-bottom: 80px;
 }
-.opinion{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px;
-    border: solid 1px whitesmoke ;
-    
+.opinion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  border: solid 1px whitesmoke;
 }
-.agreeBTN{
-    display: flex;
-    gap: 2px;
-    background-color:#C6E4D6;
-    border: none;
-    padding:10px 10px;
-    border-radius: 3px;
-    cursor: pointer;
+.agreeBTN {
+  display: flex;
+  gap: 2px;
+  background-color: #c6e4d6;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 /* recent-news section */
-.recent-news{
-    display: flex;
-    border: solid 2px whitesmoke;
-    box-shadow: 5px 5px 50px white;
-    gap: 32px;
-    border-radius: 10px;
-    padding: 48px;
-    margin-top: 24px;
+.recent-news {
+  display: flex;
+  border: solid 2px whitesmoke;
+  box-shadow: 5px 5px 50px white;
+  gap: 32px;
+  border-radius: 10px;
+  padding: 48px;
+  margin-top: 24px;
 }
-.IMG{
-    width: 408px;
-    height: auto;
-    border-radius: 10px;
+.IMG {
+  width: 408px;
+  height: auto;
+  border-radius: 10px;
 }
-    .date-time{
-        display: flex;
-        gap: 20px;
-        align-items: center;
-    }
+.date-time {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+/* alternate right image */
+.recent-news.right-img{
+  flex-direction: row-reverse;
+}
